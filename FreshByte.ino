@@ -22,7 +22,7 @@ WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "0.au.pool.ntp.org", 3600 * 11);
 
 // IoTHub Connection String
-static const char* connectionString = "HostName=raventl-iot-hub.azure-devices.net;DeviceId=testdevice;SharedAccessKey=Dz9Wnalpkeq40xtcRfkpoG4RbnWURtB157SuSfmH7ME=";
+static const char* connectionString = "HostName=raventl-iot-hub.azure-devices.net;DeviceId=testdevice;SharedAccessKey=[key]";
 
 // Handle and track messages.
 int messageCount = 1;
